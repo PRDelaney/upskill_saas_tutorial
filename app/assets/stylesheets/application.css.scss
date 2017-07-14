@@ -27,7 +27,7 @@ h1, h2, h3 {
 //background gradiant
 .navbar, .home-callout {
     //gradient provided by @_ighosh at uigradients.com
-    background: #00c6ff;  /* fallback for old browsers */
+    background: #0c6ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -35,6 +35,11 @@ h1, h2, h3 {
 //nav styles
 .navbar {
     border: none;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 
 .navbar-default .navbar-brand, 
