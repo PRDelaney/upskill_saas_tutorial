@@ -40,6 +40,9 @@ gem 'hirb', '0.7.3'
 # use divise for user authentification
 gem 'devise', '4.2.0'
 
+#use stripe for payments
+gem 'stripe', '1.48.0'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
